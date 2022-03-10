@@ -20,13 +20,11 @@
   align-self: center;
 }
 #logo-label {
-  font-size: 5vh;
+  font-size: 24px;
   padding: 5px;
   align-self: center;
 }
-nav {
-  display: flex;
-}
+
 ul,
 li {
   display: inline-block;
@@ -37,4 +35,13 @@ li {
 ul li a {
   color: #f9faf8;
   text-decoration: none;
+}
+
+#banner {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+#banner h1 {
+  font-weight: bolder;
+  font-size: 48px;
 }
