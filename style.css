@@ -25,11 +25,11 @@
   align-self: center;
 }
 
-ul,
-li {
-  display: inline-block;
+ul li {
+  display: inline-flex;
   list-style-type: none;
   padding: 10px;
+  flex: 1;
 }
 
 ul li a {
