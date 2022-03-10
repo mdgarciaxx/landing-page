@@ -29,7 +29,6 @@ ul li {
   display: inline-flex;
   list-style-type: none;
   padding: 10px;
-  flex: 1;
 }
 
 ul li a {
