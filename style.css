@@ -4,6 +4,7 @@
 
   box-sizing: 0;
   font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
 }
 #navbar {
   background-color: #1f2937;
@@ -23,6 +24,7 @@
   font-size: 24px;
   padding: 5px;
   align-self: center;
+  color: #f9faf8;
 }
 
 ul li {
@@ -47,6 +49,7 @@ ul li a {
   gap: 3rem;
 }
 #banner h1 {
+  color: #f9faf8;
   font-size: 48px;
   line-height: 3rem;
   font-family: "Poppins", sans-serif;
@@ -66,7 +69,8 @@ ul li a {
   flex-direction: column;
   gap: 1rem;
 }
-#btn-sign-up {
+.btn-sign-up {
+  font-weight: bold;
   width: 10em;
   height: 2em;
   padding: 0 1em;
@@ -76,18 +80,17 @@ ul li a {
   border-radius: 3px;
 }
 #info {
-  height: 350px;
+  height: 450px;
 }
 #info-header {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 36px;
-  color: #1f2937;
   margin-top: 1rem;
 }
 .info-img {
   display: flex;
-  height: inherit;
+  height: 350px;
   gap: 2rem;
   justify-content: center;
   align-items: center;
@@ -100,8 +103,72 @@ ul li a {
 }
 .cat + p {
   text-align: center;
-  color: #1f2937;
 }
 .info-group {
   width: 200px;
+}
+#quote {
+  height: 300px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+blockquote {
+  font-style: italic;
+  font-size: 36px;
+  align-self: center;
+}
+blockquote + p {
+  font-size: 36px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+/* footer {
+  background-color: #1f2937;
+  color:
+} */
+
+#sign-up {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sign-up-msg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  height: 150px;
+  width: 1000px;
+  background-color: #3882f6;
+  border-radius: 10px;
+
+  font-size: 24px;
+}
+#msg > * {
+  color: #e5e7eb;
+}
+#btn-sign-up {
+  box-sizing: border-box;
+  border: 3px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #3882f6;
+  width: 6em;
+  height: 2em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 24px;
+  color: #e5e7eb;
+}
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 18px;
+  height: 50px;
+  padding: 25px;
 }
