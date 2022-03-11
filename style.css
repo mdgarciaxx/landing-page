@@ -3,7 +3,7 @@
   padding: 0;
 
   box-sizing: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #navbar {
   background-color: #1f2937;
@@ -49,6 +49,7 @@ ul li a {
 #banner h1 {
   font-size: 48px;
   line-height: 3rem;
+  font-family: "Poppins", sans-serif;
 }
 #banner p {
   font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +71,37 @@ ul li a {
   height: 2em;
   padding: 0 1em;
   color: #e5e7eb;
-  background-color: rgb(26, 26, 168);
+  background-color: #3882f6;
   border: none;
   border-radius: 3px;
+}
+#info {
+  height: 350px;
+}
+#info-header {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  margin-top: 1rem;
+}
+.info-img {
+  display: flex;
+  height: inherit;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.cat + p {
+  text-align: center;
+  color: #1f2937;
+}
+.info-group {
+  width: 200px;
 }
